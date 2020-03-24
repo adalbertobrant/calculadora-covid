@@ -3095,7 +3095,7 @@
 
     // (199:6) {#each xScaleTime.ticks() as i}
     function create_each_block_3(ctx) {
-    	var g, text_1, t0_value = ctx.i == 0 ? "Day ":"" + "", t0, t1_value = ctx.i + "", t1, g_transform_value;
+    	var g, text_1, t0_value = ctx.i == 0 ? "Dia ":"" + "", t0, t1_value = ctx.i + "", t1, g_transform_value;
 
     	const block = {
     		c: function create() {
@@ -3120,7 +3120,7 @@
     		},
 
     		p: function update(changed, ctx) {
-    			if ((changed.xScaleTime) && t0_value !== (t0_value = ctx.i == 0 ? "Day ":"" + "")) {
+    			if ((changed.xScaleTime) && t0_value !== (t0_value = ctx.i == 0 ? "Dia ":"" + "")) {
     				set_data_dev(t0, t0_value);
     			}
 
@@ -22756,7 +22756,7 @@
     			link = element("link");
     			t0 = space();
     			h2 = element("h2");
-    			h2.textContent = "Calculadora Epidêmica :) ";
+    			h2.textContent = "Calculadora da Epidemia :) ";
     			t2 = space();
     			div75 = element("div");
     			div50 = element("div");
@@ -22891,10 +22891,10 @@
     			t75 = space();
     			i8 = element("i");
     			t76 = text(t76_value);
-    			t77 = text(" / day");
+    			t77 = text(" / dia");
     			t78 = space();
     			div27 = element("div");
-    			div27.textContent = "População não é mais infecciosa devido ao isolamento ou imunidade adquirida.";
+    			div27.textContent = "População não mais infecciosa devido ao isolamento ou imunidade.";
     			t80 = space();
     			div34 = element("div");
     			checkbox4.$$.fragment.c();
@@ -22948,7 +22948,7 @@
     			t108 = text(" / dia");
     			t109 = space();
     			div40 = element("div");
-    			div40.textContent = "Internações Ativas.";
+    			div40.textContent = "Internações ativas.";
     			t111 = space();
     			div48 = element("div");
     			arrow6.$$.fragment.c();
@@ -22976,7 +22976,7 @@
     			t124 = space();
     			i13 = element("i");
     			t125 = text(t125_value);
-    			t126 = text(" / day");
+    			t126 = text(" / dia");
     			t127 = space();
     			div47 = element("div");
     			div47.textContent = "Mortes.";
@@ -23004,7 +23004,7 @@
     			t138 = space();
     			span15 = element("span");
     			div56 = element("div");
-    			div56.textContent = "( arraste)";
+    			div56.textContent = "(arraste)";
     			t140 = space();
     			div57 = element("div");
     			svg = svg_element("svg");
@@ -23056,7 +23056,7 @@
     			div116 = element("div");
     			div85 = element("div");
     			div80 = element("div");
-    			div80.textContent = "Entrada da população";
+    			div80.textContent = "Dados da população";
     			t158 = space();
     			div81 = element("div");
     			t159 = text("Tamanho da população.");
@@ -23101,7 +23101,7 @@
     			t180 = space();
     			div93 = element("div");
     			t181 = text(t181_value);
-    			t182 = text(" days");
+    			t182 = text(" Dias");
     			t183 = space();
     			input4 = element("input");
     			t184 = space();
@@ -23112,7 +23112,7 @@
     			t187 = space();
     			div95 = element("div");
     			t188 = text(ctx.D_infectious);
-    			t189 = text(" Days");
+    			t189 = text(" Dias");
     			t190 = space();
     			input5 = element("input");
     			t191 = space();
@@ -23147,7 +23147,7 @@
     			div104.textContent = "Tempo de Recuperação";
     			t208 = space();
     			div105 = element("div");
-    			t209 = text("Tempo de internação hospitalar");
+    			t209 = text("Tempo de permanência no hospital");
     			br9 = element("br");
     			t210 = space();
     			div106 = element("div");
@@ -23162,7 +23162,7 @@
     			t216 = space();
     			div108 = element("div");
     			t217 = text(ctx.D_recovery_mild);
-    			t218 = text(" Days");
+    			t218 = text(" Dias");
     			t219 = space();
     			input9 = element("input");
     			t220 = space();
@@ -23186,14 +23186,14 @@
     			t230 = space();
     			div114 = element("div");
     			t231 = text(ctx.D_hospital_lag);
-    			t232 = text(" Days");
+    			t232 = text(" Dias");
     			t233 = space();
     			input11 = element("input");
     			t234 = space();
     			div118 = element("div");
     			t235 = space();
     			p0 = element("p");
-    			p0.textContent = "No momento da redação deste artigo, o COVID-19 continua sendo uma crise global de saúde de magnitude grave e incerta. Para o não especialista (como eu), contextualizar os números, previsões e parâmetros epidemiológicos descritos na mídia e na literatura pode ser um desafio. Criei esta calculadora como uma tentativa de abordar essa lacuna no entendimento.";
+    			p0.textContent = "No momento da redação deste artigo, o COVID-19 continua sendo uma crise global de saúde de magnitude grave e incerta. Para os não-especialistas (como eu), entender os números, previsões e parâmetros epidemiológicos descritos na mídia e na literatura é algo desafiador. Por isso, criei esta calculadora como uma tentativa de facilitar esse entendimento.";
     			t237 = space();
     			p1 = element("p");
     			t238 = text("Esta calculadora implementa um modelo clássico de doença infecciosa — ");
@@ -23216,7 +23216,7 @@
     			span18 = element("span");
     			b5 = element("b");
     			b5.textContent = "R";
-    			t249 = text("emovidos), um modelo idealizado de propagação ainda usado nas linhas de frente da pesquisa e.g. [");
+    			t249 = text("emovidos), um modelo ideal de propagação ainda usado nas linhas de frente de pesquisas e.g. [");
     			a1 = element("a");
     			a1.textContent = "Wu, et. al";
     			t251 = text(", ");
@@ -23224,7 +23224,7 @@
     			a2.textContent = "Kucharski et. al";
     			t253 = text("]. A dinâmica deste modelo é caracterizada por um conjunto de quatro equações diferenciais ordinárias que correspondem aos estágios da progressão da doença:\n");
     			span19 = element("span");
-    			t254 = text("\nAlém da dinâmica de transmissão, este modelo permite o uso de informações suplementares de temporização para modelar a taxa de mortalidade e a carga de assistência médica.");
+    			t254 = text("\nAlém da dinâmica de transmissão, este modelo permite o uso de informações suplementares de temporização para modelar a taxa de mortalidade e a carga no sistema hospitalar.");
     			t255 = space();
     			p2 = element("p");
     			t256 = text("Observe que alguém pode usar esta calculadora para medir a exposição ao risco da doença em qualquer dia da epidemia: a probabilidade de ser infectado no dia ");
@@ -23241,8 +23241,8 @@
     			a4.textContent = "Burke et. al";
     			t265 = text("].");
     			t266 = space();
-    			p3 = element("p");
-    			p3.textContent = "A sampling of the estimates for epidemic parameters are presented below:";
+          p3 = element("p");
+    			p3.textContent = "Uma amostra das estimativas para os parâmetros da epidemia são mostradas abaixo:";
     			t268 = space();
     			div119 = element("div");
     			table = element("table");
@@ -23250,24 +23250,24 @@
     			th0 = element("th");
     			t269 = space();
     			th1 = element("th");
-    			th1.textContent = "Location";
+    			th1.textContent = "Localização";
     			t271 = space();
     			th2 = element("th");
-    			t272 = text("Reproduction Number");
+    			t272 = text("Número de reprodução");
     			br13 = element("br");
     			t273 = space();
     			t274 = space();
     			th3 = element("th");
-    			t275 = text("Incubation Period");
+    			t275 = text("Período de incubação");
     			br14 = element("br");
     			t276 = space();
-    			t277 = text(" (in days)");
+    			t277 = text(" (em dias)");
     			t278 = space();
     			th4 = element("th");
-    			t279 = text("Infectious Period");
+    			t279 = text("Período Infeccioso");
     			br15 = element("br");
     			t280 = space();
-    			t281 = text(" (in days)");
+    			t281 = text(" (em dias)");
     			t282 = space();
     			tr1 = element("tr");
     			td0 = element("td");
@@ -23323,7 +23323,7 @@
     			tr4 = element("tr");
     			td15 = element("td");
     			a8 = element("a");
-    			a8.textContent = "WHO Initial Estimate";
+    			a8.textContent = "Estimativa Inicial da OMS";
     			t314 = space();
     			td16 = element("td");
     			td16.textContent = "Hubei";
@@ -23338,7 +23338,7 @@
     			tr5 = element("tr");
     			td20 = element("td");
     			a9 = element("a");
-    			a9.textContent = "WHO-China Joint Mission";
+    			a9.textContent = "Missão conjunta OMS-China";
     			t322 = space();
     			td21 = element("td");
     			td21.textContent = "Hubei";
@@ -23371,7 +23371,7 @@
     			tr7 = element("tr");
     			td30 = element("td");
     			a11 = element("a");
-    			a11.textContent = "Rocklöv, Sjödin and Wilder-Smith";
+    			a11.textContent = "Rocklöv, Sjödin e Wilder-Smith";
     			t341 = space();
     			td31 = element("td");
     			td31.textContent = "Princess Diamond";
@@ -23449,67 +23449,67 @@
     			td55 = element("td");
     			t383 = space();
     			p4 = element("p");
-    			t384 = text("See [");
+    			t384 = text("Em [");
     			a16 = element("a");
     			a16.textContent = "Liu et. al";
-    			t386 = text("] detailed survey of current estimates of the reproduction number. Parameters for the diseases' clinical characteristics are taken from the following ");
+    			t386 = text("] você pode encontrar uma descrição detalhada da atual estimativa do número de reprodução. Parâmetros para as características clinicas da doença foram retirados do seguinte ");
     			a17 = element("a");
-    			a17.textContent = "WHO Report";
+    			a17.textContent = "relatório da OMS";
     			t388 = text(".");
     			t389 = space();
     			p5 = element("p");
-    			t390 = text("Please DM me feedback ");
+    			t390 = text("Para contato com o criador original desse conteúdo, mande ");
     			a18 = element("a");
-    			a18.textContent = "here";
-    			t392 = text(" or email me ");
+    			a18.textContent = "DM aqui";
+    			t392 = text(" ou envie um e-mail ");
     			a19 = element("a");
-    			a19.textContent = "here";
-    			t394 = text(". My ");
+    			a19.textContent = "aqui";
+    			t394 = text(". O site dele está ");
     			a20 = element("a");
-    			a20.textContent = "website";
+    			a20.textContent = "nesse link";
     			t396 = text(".");
     			t397 = space();
     			p6 = element("p");
     			b6 = element("b");
-    			b6.textContent = "Model Details ";
+    			b6.textContent = "Detalhes do modelo ";
     			br16 = element("br");
-    			t399 = text("\nThe clinical dynamics in this model are an elaboration on SEIR that simulates the disease's progression at a higher resolution, subdividing ");
-    			t400 = text(" into ");
+    			t399 = text("\nAs dinámicas nesse modelo seguem o SEIR, que simula a progressão da doença de uma forma geral, subdividindo ");
+    			t400 = text(" em ");
     			i14 = element("i");
-    			i14.textContent = "mild";
-    			t402 = text(" (patients who recover without the need for hospitalization), ");
+    			i14.textContent = "leve";
+    			t402 = text(" (paciencientes que se recuperam da doença sem a necessidade de hospitalização), ");
     			i15 = element("i");
-    			i15.textContent = "moderate";
-    			t404 = text(" (patients who require hospitalization but survive) and ");
+    			i15.textContent = "moderado";
+    			t404 = text(" (pacientes que precisam de hospitalização mas sobrevivem) e ");
     			i16 = element("i");
     			i16.textContent = "fatal";
-    			t406 = text(" (patients who require hospitalization and do not survive). Each of these variables follows its own trajectory to the final outcome, and the sum of these compartments add up to the values predicted by SEIR. Please refer to the source code for details. Note that we assume, for simplicity, that all fatalities come from hospitals, and that all fatal cases are admitted to hospitals immediately after the infectious period.");
+    			t406 = text(" (pacientes que precisam de hospitalização mas não sobrevivem). Cada uma dessas variáveis segue seu próprio trajeto até o resultado final, e a soma de cada uma dessas partes resulta nos valores previstos pelo modelo SEIR. Em caso de dúvida, consulte o código fonte para mais detalhes. Note que assumimos, para simplificar, que todas as fatalidades vêm de hospitais, e que todos os casos fatais dão entrada no hospital imediatamente depois do período infeccioso.");
     			t407 = space();
     			p7 = element("p");
     			b7 = element("b");
-    			b7.textContent = "Acknowledgements ";
+    			b7.textContent = "Agradecimentos ";
     			br17 = element("br");
     			t409 = space();
     			a21 = element("a");
     			a21.textContent = "Steven De Keninck";
-    			t411 = text(" for RK4 Integrator. ");
+    			t411 = text(" pelo RK4 Integrator. ");
     			a22 = element("a");
     			a22.textContent = "Chris Olah";
     			t413 = text(", ");
     			a23 = element("a");
     			a23.textContent = "Shan Carter";
-    			t415 = text(" and ");
+    			t415 = text(" e ");
     			a24 = element("a");
     			a24.textContent = "Ludwig Schubert";
-    			t417 = text(" wonderful feedback. ");
+    			t417 = text(" por ótimos feedbacks. ");
     			a25 = element("a");
     			a25.textContent = "Nikita Jerschov";
-    			t419 = text(" for improving clarity of text. Charie Huang for context and discussion.");
+    			t419 = text(" por tornar o texto mais claro. Charie Huang pelo contexto e pela discussão. Gabriel Goh por ser o criador original desse conteúdo.");
     			t420 = space();
     			div122 = element("div");
     			div121 = element("div");
     			div120 = element("div");
-    			div120.textContent = "Export parameters:";
+    			div120.textContent = "Exportar parâmetros:";
     			t422 = space();
     			form = element("form");
     			textarea = element("textarea");
@@ -25933,13 +25933,13 @@
         var milestones = [];
         for (var i = 0; i < P.length; i++) {
           if (P[i][0] >= 0.5) {
-            milestones.push([i*dt, "First death"]);
+            milestones.push([i*dt, "Primeira Morte"]);
             break
           }
         }
 
         var i = argmax(P, 1);
-        milestones.push([i*dt, "Peak: " + format(",")(Math.round(P[i][1])) + " hospitalizations"]);
+        milestones.push([i*dt, "Pico de hospitalizações: " + format(",")(Math.round(P[i][1]))]);
 
         return milestones
       }
